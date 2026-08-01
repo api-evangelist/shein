@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://open.sheincorp.com/en
+docs: https://open.sheincorp.com/
+summary:
+  types:
+  - seller-authorization
+  note: >-
+    No public OpenAPI/Swagger securitySchemes are available to derive from — the
+    API reference is gated behind an approved Open Platform account. The auth
+    model below is captured from the public Open Platform overview.
+model:
+  style: seller-authorization-grant
+  description: >-
+    Integration is authorization-based. A partner applies for a SHEIN Open
+    Platform account, creates an Application, passes an application review, then
+    completes an "Authorization Integration" step in which the seller authorizes
+    the application (governed by the Seller Authorization Agreement) before the
+    API solutions can be called.
+  onboarding_steps:
+  - Open Platform Account Application
+  - Create Application
+  - Application Review
+  - Authorization Integration (seller authorizes the application)
+  - Solution Integration
+  api_host: https://openapi.sheincorp.com
+  unauthenticated_response: HTTP 401 application/json (requests must be authenticated and seller-authorized)
+  seller_authorization_agreement: https://open.sheincorp.com/contract?type=seller
+contact: openapi@shein.com

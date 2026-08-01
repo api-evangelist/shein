@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of SHEIN Open Platform hosts
+hosts:
+- host: https://open.sheincorp.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://openapi.sheincorp.com
+  note: API gateway host requires authenticated, seller-authorized requests; all unauthenticated probes return HTTP 401 (application/json)
+  documents:
+  - path: /.well-known/security.txt
+    status: 401
+  - path: /.well-known/openid-configuration
+    status: 401
+  - path: /.well-known/oauth-authorization-server
+    status: 401
+  - path: /llms.txt
+    status: 401
+result: no public /.well-known/ discovery documents published (all negative — valid, expected result)

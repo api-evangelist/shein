@@ -1,0 +1,48 @@
+# SHEIN Open Platform
+
+> SHEIN is a global online fast-fashion and lifestyle retailer. For third-party sellers and logistics partners it operates the SHEIN Open Platform, a merchant-integration platform exposing OpenAPI and Webhook capabilities for product management, order fulfillment, logistics, and stock-preparation order fulfillment. The production API is served from openapi.sheincorp.com and requires an approved Open Platform account with seller authorization. Developer contact: openapi@shein.com.
+
+## Platform
+
+- [SHEIN Open Platform](https://open.sheincorp.com/): Developer portal for sellers and logistics partners — OpenAPI + Webhook capabilities.
+- [Open Platform (English)](https://open.sheincorp.com/en): English-language portal home with capability and solution overview.
+- [API host](https://openapi.sheincorp.com): Production API gateway (authenticated, seller-authorized requests only).
+
+## Capabilities
+
+- OpenAPI: direct API access for product, order, and fulfillment operations.
+- Webhook: event-driven integrations for order/product/logistics status changes.
+
+## Solutions
+
+- Product Management: publish products to the SHEIN platform via OpenAPI.
+- SHEIN Fulfill Order Management: appointment delivery and shipping-label printing.
+- Seller Fulfill Order Management: tracking-number uploads and order status updates.
+- Stock Preparation Order Fulfillment: manage stock-preparation order shipping.
+
+## Onboarding
+
+Open Platform Account Application -> Create Application -> Application Review -> Authorization Integration (seller authorizes the application) -> Solution Integration.
+
+## Legal
+
+- [Developer Onboarding Terms of Use](https://open.sheincorp.com/contract)
+- [Privacy Statement](https://open.sheincorp.com/contract?contractType=PRIVACY_POLICY)
+- [Seller Authorization Agreement](https://open.sheincorp.com/contract?type=seller)
+
+## Related portals
+
+- [SHEIN Seller Learning Center](https://lms.sheincorp.cn/index?mode=SSU)
+- [SHEIN Platform Seller Portal](https://seller.sheincorp.cn/)
+- [SHEIN Supplier Portal](https://zhaoshang.sheincorp.cn/)
+
+## Contact
+
+- openapi@shein.com
+
+## Artifacts
+
+- [Authentication profile](https://raw.githubusercontent.com/api-evangelist/shein/refs/heads/main/authentication/shein-authentication.yml)
+- [Webhooks capability](https://raw.githubusercontent.com/api-evangelist/shein/refs/heads/main/asyncapi/shein-webhooks.yml)
+- [Well-known probe index](https://raw.githubusercontent.com/api-evangelist/shein/refs/heads/main/well-known/shein-well-known.yml)
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/shein/refs/heads/main/security/shein-domain-security.yml)

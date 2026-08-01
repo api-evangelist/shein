@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: https://open.sheincorp.com/en
+type: Webhooks
+summary: >-
+  The SHEIN Open Platform documents a Webhook capability for event-driven
+  integrations, offered alongside its OpenAPI capability. The specific event
+  names and payload schemas are published in the gated developer documentation
+  (available after an Open Platform account is approved), so only the documented
+  capability and the business domains it covers are captured here — no event
+  names or payloads are asserted.
+capability:
+  advertised: true
+  kind: webhook
+  purpose: event-driven integrations for sellers and logistics partners
+  event_domains:
+  - product management (product publishing status)
+  - SHEIN-fulfill order management
+  - seller-fulfill order management (tracking / order status updates)
+  - stock-preparation order fulfillment
+asyncapi_spec: null
+note: >-
+  No public AsyncAPI document is published. Webhook event catalog is behind the
+  authenticated developer portal.
