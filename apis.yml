@@ -38,6 +38,17 @@ modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- E-Commerce
+- Retail
+- Fashion
+- Marketplace
+- Fulfillment
+- Logistics
+- Open Platform
+- Sellers
+tags_raw:
+- Company
+- Consumer
 - E-commerce
 - Retail
 - Fashion
@@ -56,6 +67,11 @@ apis:
   humanURL: https://open.sheincorp.com/en
   baseURL: https://openapi.sheincorp.com
   tags:
+  - E-Commerce
+  - Fulfillment
+  - Logistics
+  - Sellers
+  tags_raw:
   - E-commerce
   - Fulfillment
   - Logistics
